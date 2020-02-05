@@ -1,0 +1,48 @@
+<!-- DTD - 문서 구조를 설명 -->
+<!DOCTYPE html>
+
+<!-- 문서의 시작 -->
+<html>
+
+<!-- 문서에 대한 설정 -->
+<head>
+
+<!-- charset 설정이 없으면 한글이 깨질 수 있음 -->
+<meta charset="UTF-8">
+<title>HTML4</title>
+</head>
+
+<!-- 문서의 출력 부분 -->
+<body>
+	<img src="./resources/images/pt1.jpg" width ="400" height="400" border="1"
+	usemap="#pt"/>
+	
+	<map name="pt">
+		<area shape="rect" coords="0, 0, 200, 400" href="http://www.naver.com">
+		<area shape="rect" coords="200, 0, 400, 400" href="http://www.daum.net">
+	</map>
+	
+	<!-- 데이블을 생성 -->
+	<h3 align="center">연락처</h3>
+	<table border="1" width="400" align="center">
+		<thead>
+			<tr>
+				<th width="40%">이름</th>
+				<th width="40%">전화번호</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td>박문석</td>
+				<td>01012345678</td>
+			</tr>
+			<tr>
+				<td>제시카</td>
+				<td>01009871234</td>
+			</tr>
+		</tbody>
+	</table>
+	
+</body>
+</html>

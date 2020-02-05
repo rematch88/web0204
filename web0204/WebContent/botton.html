@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>버튼 누르는 효과</title>
+<style>
+	img{
+		width:60px;
+		height:60px;
+	}
+	/* 이미지를 클릭할 때 위와 왼쪽에 여백을 설정해서 이동 */
+	img:active{
+		margin-left:3px;
+		margin-top:3px;
+	}
+	
+	#btn{
+		width:60px;
+		height:60px;
+		background:papayawhip;
+		margin-bottom:10px;
+		border-width:5px;
+		border-style:solid;
+		border-left-color:red;
+		border-top-color:red;
+		border-right-color:blue;
+		border-bottom-color:blue;
+	}
+	/*
+	#btn:active{
+		width:60px;
+		height:60px;
+		background:papayawhip;
+		margin-bottom:10px;
+		border-width:5px;
+		border-style:solid;
+		border-left-color:blue;
+		border-top-color:blue;
+		border-right-color:red;
+		border-bottom-color:red;
+	}
+	*/
+	#btn:active{
+		background-image:url('./resources/images/bt1.jpg');
+	}
+	
+	
+</style>
+
+</head>
+<body>
+	<div id="btn">버튼</div>
+
+	<div id="btn1"><a href="#">
+		<img src="./resources/images/bt1.jpg"/>
+	</a></div>
+</body>
+</html>
